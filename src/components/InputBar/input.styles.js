@@ -12,6 +12,7 @@ export default StyleSheet.create({
     borderBottomWidth: 1,
     paddingBottom: 5,
     borderColor: "#798F9C",
+    color: "red",
   },
   button: {
     alignItems: "center",
@@ -21,7 +22,15 @@ export default StyleSheet.create({
     marginTop: 10,
   },
   button_text: {
-    color: "#F7F7F7",
-    fontSize: 18,
+    textAlign: "center",
+    padding: 10,
+    color: "#FAF8F1",
+    fontSize: 17,
+  },
+  active_button: {
+    backgroundColor: "#F49D1A",
+    borderRadius: 5,
+    marginTop: 10,
+    marginHorizontal: 10,
   },
 });
