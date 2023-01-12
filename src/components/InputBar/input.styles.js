@@ -12,7 +12,7 @@ export default StyleSheet.create({
     borderBottomWidth: 1,
     paddingBottom: 5,
     borderColor: "#798F9C",
-    color: "red",
+    color: "#FAF8F1",
   },
   button: {
     alignItems: "center",

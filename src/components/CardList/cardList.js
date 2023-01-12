@@ -13,7 +13,15 @@ const CardList = ({ data, completedToDo, removeToDo }) => {
       }}
     >
       <View style={styles.container}>
-        <Text style={styles.text}>{data.action}</Text>
+        <Text
+          style={
+            data.isDone
+              ? styles.after_completed_text
+              : styles.before_completed_text
+          }
+        >
+          {data.action}
+        </Text>
       </View>
     </TouchableOpacity>
   );

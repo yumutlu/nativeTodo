@@ -14,7 +14,7 @@ export default function App() {
       {
         action: toDo,
         id: Math.random() + Date.now(),
-        isDone: true,
+        isDone: false,
       },
     ]);
     setToDo("");
